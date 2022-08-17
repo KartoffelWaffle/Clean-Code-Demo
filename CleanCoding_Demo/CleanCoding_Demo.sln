@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanCoding_Demo", "CleanCoding_Demo.csproj", "{4D8131BC-77EF-4025-A56C-46DC31A65D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CLI", "..\CLI\CLI.csproj", "{D9E3B9A2-1515-4FDD-AEBA-007ED0093B64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "..\Controllers\Controllers.csproj", "{FA42A6CF-B46E-483F-A296-2F6340F5D071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "..\DTO\DTO.csproj", "{8E29922A-2D10-4B45-9F1E-972C8B1D9CB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "..\Entities\Entities.csproj", "{56EFF76F-E6E0-4E27-956B-F063467488EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OracleDatabaseGateway", "..\OracleDatabaseGateway\OracleDatabaseGateway.csproj", "{0B3546D2-0EAF-4B26-AFAF-3FC1F415547A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usecases", "..\Usecases\Usecases.csproj", "{9EEE3DAF-04E4-4FDE-B2D1-0EA9F71E887A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D8131BC-77EF-4025-A56C-46DC31A65D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8131BC-77EF-4025-A56C-46DC31A65D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8131BC-77EF-4025-A56C-46DC31A65D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8131BC-77EF-4025-A56C-46DC31A65D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E3B9A2-1515-4FDD-AEBA-007ED0093B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E3B9A2-1515-4FDD-AEBA-007ED0093B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E3B9A2-1515-4FDD-AEBA-007ED0093B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E3B9A2-1515-4FDD-AEBA-007ED0093B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA42A6CF-B46E-483F-A296-2F6340F5D071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA42A6CF-B46E-483F-A296-2F6340F5D071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA42A6CF-B46E-483F-A296-2F6340F5D071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA42A6CF-B46E-483F-A296-2F6340F5D071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E29922A-2D10-4B45-9F1E-972C8B1D9CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E29922A-2D10-4B45-9F1E-972C8B1D9CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E29922A-2D10-4B45-9F1E-972C8B1D9CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E29922A-2D10-4B45-9F1E-972C8B1D9CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EFF76F-E6E0-4E27-956B-F063467488EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EFF76F-E6E0-4E27-956B-F063467488EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EFF76F-E6E0-4E27-956B-F063467488EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EFF76F-E6E0-4E27-956B-F063467488EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3546D2-0EAF-4B26-AFAF-3FC1F415547A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3546D2-0EAF-4B26-AFAF-3FC1F415547A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3546D2-0EAF-4B26-AFAF-3FC1F415547A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3546D2-0EAF-4B26-AFAF-3FC1F415547A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEE3DAF-04E4-4FDE-B2D1-0EA9F71E887A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEE3DAF-04E4-4FDE-B2D1-0EA9F71E887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEE3DAF-04E4-4FDE-B2D1-0EA9F71E887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEE3DAF-04E4-4FDE-B2D1-0EA9F71E887A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {938B1AEA-30B2-4D8B-84DE-6CFB88E49B4A}
+	EndGlobalSection
+EndGlobal
